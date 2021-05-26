@@ -10,8 +10,10 @@ environment:
 dependencies:
   just_audio_platform_interface: ^3.0.0
   just_audio_web: ^0.3.1
-  audio_session: ^0.1.0
-  rxdart: ^0.26.0
+  audio_session:
+    git:
+      url: https://github.com/brancedev/audio_session.git
+  rxdart: ^0.25.0
   path: ^1.8.0
   path_provider: ^2.0.0
   async: ^2.5.0
